@@ -2,7 +2,7 @@
 def pow(a, b):
     for i in range(0, b):
         if b > 0:
-            c = a * a
+            c = c * a
         if b < 0:
-            c = a / a
+            c = c / a
     return c
